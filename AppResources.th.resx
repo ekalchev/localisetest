@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalMobisystemsApps" xml:space="preserve">
+    <value>แอป MobiSystems เพิ่มเติม:</value>
+  </data>
+  <data name="InstallationErrorText" xml:space="preserve">
+    <value>มีบางอย่างผิดพลาด โปรดลองอีกครั้ง</value>
+  </data>
+  <data name="InstallationText" xml:space="preserve">
+    <value>กำลังติดตั้ง...</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiDocs" xml:space="preserve">
+    <value>โปรแกรมแก้ไขข้อความขั้นสูงที่เข้ากันได้อย่างสมบูรณ์กับ Office 365</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiPDF" xml:space="preserve">
+    <value>อ่าน สร้าง แก้ไข รวม และส่งออก PDF ในแอปเดียว</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiSheets" xml:space="preserve">
+    <value>โปรแกรมสร้างสเปรดชีตอันแข็งแกร่งสำหรับการแสดงภาพและวิเคราะห์ข้อมูล</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiSlides" xml:space="preserve">
+    <value>เครื่องมือการนำเสนอแบบไดนามิกและตัวแก้ไขสไลด์โชว์</value>
+  </data>
+  <data name="InstallButtonText" xml:space="preserve">
+    <value>ติดตั้ง</value>
+  </data>
+  <data name="OpenAppButtonText" xml:space="preserve">
+    <value>เปิดแอป</value>
+  </data>
+  <data name="AddButtonText" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="CancelInstallMessage" xml:space="preserve">
+    <value>การยกเลิกจะหยุดการติดตั้งและแอปจะไม่ได้รับการติดตั้ง</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="StartAppAfterInstallCheckBoxText" xml:space="preserve">
+    <value>เริ่มแอปหลังจากติดตั้ง</value>
+  </data>
+  <data name="ExitConfirmationMessage" xml:space="preserve">
+		<value>คุณแน่ใจว่าต้องการออกใช่ไหม?</value>
+  </data>
+  <data name="NotAllInstallationsSelected_StartText" xml:space="preserve">
+    <value>รอหน่อย คุณกำลังพลาดเครื่องมือฟรี!</value>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiPDFText" xml:space="preserve">
+    <value>จัดการ PDF ด้วยเครื่องมือครบวงจรของเรา</value>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiDocsText" xml:space="preserve">
+    <value>การแก้ไขเอกสารอย่างไร้รอยต่อเพียงปลายนิ้วสัมผัส</value>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiSheetsText" xml:space="preserve">
+    <value>ทำให้การจัดการสเปรดชีตง่ายขึ้น</value>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiSlidesText" xml:space="preserve">
+    <value>แสดงไอเดียด้วยสไลด์ที่สวยงาม</value>
+  </data>
+  <data name="NotAllInstallationsSelected_EndText" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ?</value>
+  </data>
+  <data name="PreparingInstallationText" xml:space="preserve">
+    <value>กำลังตรวจสอบการพึ่งพา...</value>
+  </data>
+  <data name="PreparingUpdate" xml:space="preserve">
+    <value>กำลังเตรียมการอัปเดต</value>
+  </data>
+  <data name="ProgressPercent" xml:space="preserve">
+    <value>กำลังดำเนินการ... {0}%</value>
+  </data>
+  <data name="GeneralDialog_OK" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="GeneralDialog_Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="GeneralDialog_Yes" xml:space="preserve">
+    <value>_ใช่</value>
+  </data>
+  <data name="GeneralDialog_No" xml:space="preserve">
+    <value>ไม่ใช่</value>
+  </data>
+  <data name="ttClose" xml:space="preserve">
+    <value>ปืด</value>
+  </data>
+  <data name="tdClose" xml:space="preserve">
+    <value>ปิดหน้าต่าง</value>
+  </data>
+  <data name="QuitInstallerDialogMessage" xml:space="preserve">
+    <value>หากคุณออกตอนนี้ แอปจะไม่ได้รับการติดตั้ง</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiDrive" xml:space="preserve">
+    <value>โซลูชันการจัดเก็บข้อมูลบนคลาวด์สำหรับการจัดการและแชร์ไฟล์อย่างง่ายดาย</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiMail" xml:space="preserve">
+    <value>ไคลเอนต์อีเมลและปฏิทินที่ปลอดภัยและใช้งานง่าย</value>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiMailText" xml:space="preserve">
+    <value>การจัดการอีเมลและปฏิทินที่มีประสิทธิภาพ</value>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiDriveText" xml:space="preserve">
+    <value>การจัดระเบียบและเข้าถึงไฟล์ในคลาวด์ได้อย่างง่ายดาย</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiOffice" xml:space="preserve">
+    <value>ชุดแอปสำนักงานที่ใช้งานง่ายครบถ้วน</value>
+  </data>
+</root>

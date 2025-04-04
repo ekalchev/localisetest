@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalMobisystemsApps" xml:space="preserve">
+    <value>Additional MobiSystems apps:</value>
+  </data>
+  <data name="InstallationErrorText" xml:space="preserve">
+    <value>Something went wrong, please try again.</value>
+  </data>
+  <data name="InstallationText" xml:space="preserve">
+    <value>Installing...</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiDocs" xml:space="preserve">
+    <value>Advanced text editor fully compatible with Office 365</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiOffice" xml:space="preserve">
+    <value>A complete pack of easy-to-use office suite apps</value>
+    <comment>#FORREVIEW</comment>
+  </data>
+  <data name="InstallationSourceDescription_MobiPDF" xml:space="preserve">
+    <value>Read, create, edit, combine, and export PDFs in one app</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiSheets" xml:space="preserve">
+    <value>Robust spreadsheet creator for visualizing and analyzing data</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiSlides" xml:space="preserve">
+    <value>Dynamic presentation tool and slideshow editor</value>
+  </data>
+  <data name="InstallButtonText" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="OpenAppButtonText" xml:space="preserve">
+    <value>Open app</value>
+  </data>
+  <data name="AddButtonText" xml:space="preserve">
+    <value>Add</value>
+    <comment>Adds an optional module to OfficeSuite</comment>
+  </data>
+  <data name="CancelInstallMessage" xml:space="preserve">
+    <value>Cancelling will stop the installation and the app will not be installed.</value>
+    <comment>Shown when the user closes the app during an installation. Additionally "Are you sure you want to exit" is shown 2 lines above this text</comment>
+  </data>
+  <data name="QuitInstallerDialogMessage" xml:space="preserve">
+    <value>If you quit now, the app will not be installed.</value>
+    <comment>Shown when the user closes the app before any installation has started.  Additionally "Are you sure you want to exit" is shown 2 lines above this text</comment>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="StartAppAfterInstallCheckBoxText" xml:space="preserve">
+    <value>Start app after install</value>
+  </data>
+  <data name="ExitConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to exit?</value>
+    <comment>Part of two messageboxes, shown on first line of the message box with the rest of the text following two lines below this one</comment>
+  </data>
+  <data name="PreparingInstallationText" xml:space="preserve">
+    <value>checking dependencies...</value>
+    <comment>#FORREVIEW TextBlock text letting the user know installation has not started yet and there are several steps needed to be done before installation starts</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_StartText" xml:space="preserve">
+    <value>Wait, you’re missing out on free tools!</value>
+    <comment>#FORREVIEW Start text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiPDFText" xml:space="preserve">
+    <value>Manage PDFs with our all-in-one tool.</value>
+    <comment>#FORREVIEW MobiPDF text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiDocsText" xml:space="preserve">
+    <value>Seamless document editing at your fingertips.</value>
+    <comment>#FORREVIEW MobiDocs text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiSheetsText" xml:space="preserve">
+    <value>Simplify spreadsheet management.</value>
+    <comment>#FORREVIEW MobiSheets text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiSlidesText" xml:space="preserve">
+    <value>Visualize ideas with beautiful slides.</value>
+    <comment>#FORREVIEW MobiSlides text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_EndText" xml:space="preserve">
+    <value>Are you sure you want to proceed?</value>
+    <comment>#FORREVIEW End text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="PreparingUpdate" xml:space="preserve">
+    <value>Preparing Update</value>
+    <comment>#FORREVIEW Label indicating the packaged application is updating</comment>
+  </data>
+  <data name="ProgressPercent" xml:space="preserve">
+    <value>Progress... {0}%</value>
+    <comment>#FORREVIEW Label indicating the progress of a package installation</comment>
+  </data>
+  <data name="GeneralDialog_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="GeneralDialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GeneralDialog_Yes" xml:space="preserve">
+    <value>_Yes</value>
+  </data>
+  <data name="GeneralDialog_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ttClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="tdClose" xml:space="preserve">
+    <value>Close window.</value>
+  </data>
+  <data name="InstallationSourceDescription_MobiDrive" xml:space="preserve">
+    <value>Cloud storage solution for easy file management and sharing</value>
+    <comment>#FORREVIEW</comment>
+  </data>
+  <data name="InstallationSourceDescription_MobiMail" xml:space="preserve">
+    <value>Secure and user-friendly email client and calendar</value>
+    <comment>#FORREVIEW</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiMailText" xml:space="preserve">
+    <value>Streamlined email and calendar management.</value>
+    <comment>#FORREVIEW MobiMail text in a warning dialog about not all installations being selected.</comment>
+  </data>
+  <data name="NotAllInstallationsSelected_MobiDriveText" xml:space="preserve">
+    <value>Effortless file organization and access in the cloud.</value>
+    <comment>#FORREVIEW MobiDrive text in a warning dialog about not all installations being selected.</comment>
+  </data>
+</root>
